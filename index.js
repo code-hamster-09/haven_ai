@@ -3,6 +3,7 @@
  */
 
 import { AppRegistry } from 'react-native';
+import 'web-streams-polyfill'; // Полифилл для ReadableStream
 import App from './App';
 import { name as appName } from './app.json';
 
