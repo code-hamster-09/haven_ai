@@ -1,14 +1,16 @@
 export const colors = {
-  primary: '#4A90E2', // Насыщенный синий
-  accent: '#FFD700',  // Золотой акцент
-  background: '#F5F5F5', // Светло-серый фон
-  textPrimary: '#333333', // Темный текст
-  textSecondary: '#666666', // Серый текст
-  success: '#4CAF50', // Зеленый для успеха
-  error: '#F44336',   // Красный для ошибок
-  cardBackground: '#FFFFFF', // Фон для карточек/сообщений
-  inputBorder: '#D0D0D0', // Цвет границы поля ввода
-  buttonText: '#FFFFFF', // Белый текст кнопок
+  primary: '#7A5AF5', // Фиолетовый мягкий (нейронный эффект)
+  accent: '#C77DFF',  // Розово-фиолетовый подсветки (акцент)
+  background: '#0D1B2A', // Темно-синий (глубокий, уверенный)
+  cardBackground: '#1B263B', // Серый нейтральный (фон для карточек/сообщений)
+  textPrimary: '#E2E8F0', // Белый / Slate 200 (для текста и контраста)
+  textSecondary: '#1B263B', // 
+  inputBorder: '#3B3C99', // Фиолетово-синий (для бордера поля ввода)
+  buttonText: '#E2E8F0', // Белый / Slate 200 (для текста кнопок)
+  headerBackground: '#0D1B2A', // Фон хедера
+  headerText: '#E2E8F0', // Текст хедера
+  userMessageBackground: '#344762', // Фон сообщений пользователя (справа)
+  modelMessageBackground: '#E2E8F0', // Фон сообщений модели (слева)
 };
 
 export const spacing = {
@@ -27,7 +29,7 @@ export const typography = {
   h1: {
     fontSize: 28,
     fontWeight: 'bold',
-    color: colors.textPrimary,
+    color: colors.headerText,
   },
   body: {
     fontSize: 16,
@@ -36,5 +38,9 @@ export const typography = {
   small: {
     fontSize: 12,
     color: colors.textSecondary,
+  },
+  chatMessage: {
+    fontSize: 16,
+    lineHeight: 24,
   },
 };
